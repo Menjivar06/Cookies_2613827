@@ -29,30 +29,30 @@
             </asp:DropDownList>
         </p>
         <p>
-            <asp:Label ID="Label4" runat="server" Text="Product"></asp:Label>
+            <asp:Label ID="lblProduct" runat="server" Text="Product"></asp:Label>
             <asp:TextBox ID="txtProduct" runat="server" Width="165px">like Flare Women&#39;s Shoes</asp:TextBox>
         </p>
         <p>
-            <asp:Label ID="Label5" runat="server" Text="Description"></asp:Label>
+            <asp:Label ID="txtDescription" runat="server" Text="Description"></asp:Label>
             <textarea id="TextArea1" cols="20" rows="2" runat="server"></textarea></p>
         <p>
-            <asp:Label ID="Label6" runat="server" Text="Image"></asp:Label>
+            <asp:Label ID="lblImage" runat="server" Text="Image"></asp:Label>
             <asp:TextBox ID="txtImage" runat="server"></asp:TextBox>
         </p>
         <p>
-            <asp:Label ID="Label7" runat="server" Text="Price"></asp:Label>
+            <asp:Label runat="server" Text="Price"></asp:Label>
             <asp:TextBox ID="txtPrice" runat="server"></asp:TextBox>
         </p>
         <p>
-            <asp:Label ID="Label8" runat="server" Text="Number in Stock"></asp:Label>
+            <asp:Label runat="server" Text="Number in Stock"></asp:Label>
             <asp:TextBox ID="txtNumberInStock" runat="server"></asp:TextBox>
         </p>
         <p>
-            <asp:Label ID="Label9" runat="server" Text="Number on Order"></asp:Label>
+            <asp:Label runat="server" Text="Number on Order"></asp:Label>
             <asp:TextBox ID="txtNumberOnOrder" runat="server"></asp:TextBox>
         </p>
         <p>
-            <asp:Label ID="Label10" runat="server" Text="Recorder Level"></asp:Label>
+            <asp:Label runat="server" Text="Recorder Level"></asp:Label>
             <asp:TextBox ID="txtRecorderLevel" runat="server"></asp:TextBox>
         </p>
         <p>

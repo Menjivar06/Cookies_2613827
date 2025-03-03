@@ -9,10 +9,7 @@ namespace Cookie_2613827
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
+     
 
         protected void btnConfirm_Click(object sender, EventArgs e)
         {
@@ -27,7 +24,7 @@ namespace Cookie_2613827
             Response.Cookies["bytNumberOnOrder"].Value = txtNumberOnOrder.Text;
             Response.Cookies["byReorderLevel1"].Value = txtRecorderLevel.Text;
             //Go to the confirmation page.
-            Response.Redirect("ProductConfirmCookies.aspx");
+            Response.Redirect("ConfirmProducto.aspx");
         }
 
 
